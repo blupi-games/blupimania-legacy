@@ -1,0 +1,3 @@
+  pline ("\001FUN WITH BLUPI\001 for children aged 6 to 12. Have a great time") ;
+  pline ("playing eight different games with Blupi such as mazes,") ; 
+  pline ("puzzles, missing letters, hidden words, scrambled words etc.") ;

@@ -1,0 +1,2 @@
+  pline ("\001BLUPI GEHT SPAZIEREN\001 fÅr Kinder von 4 bis 12. Blupi hat Teile von") ;
+  pline ("seiner Maschine verloren. Hilf Ihm, sie wiederzufinden.") ;

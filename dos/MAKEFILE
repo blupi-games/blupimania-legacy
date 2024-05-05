@@ -1,0 +1,166 @@
+.AUTODEPEND
+
+#		*Translator Definitions*
+CC = tcc +BLUPIMAN.CFG
+TASM = TASM
+TLINK = tlink
+
+
+#		*Implicit Rules*
+.c.obj:
+  $(CC) -c {$< }
+
+.cpp.obj:
+  $(CC) -c {$< }
+
+.asm.obj:
+  $(TASM) {$< }
+
+
+#		*List Macros*
+
+
+EXE_dependencies =  \
+  protect.obj \
+  blp_aclk.obj \
+  adlib.obj \
+  dacdma.obj \
+  detblast.obj \
+  sbdac.obj \
+  dma_code.obj \
+  sbp_chk.obj \
+  farmset.obj \
+  xmsca.obj \
+  xms.obj \
+  blit.obj \
+  muspl.obj \
+  bmsmaky.obj \
+  bmdecor.obj \
+  bmicone.obj \
+  te_col.obj \
+  bmmove.obj \
+  bmpal.obj \
+  bmtable.obj \
+  te_tim.obj \
+  bmtext.obj \
+  pubscree.obj \
+  bm_x.obj
+
+#		*Explicit Rules*
+blupiman.exe: blupiman.cfg $(EXE_dependencies)
+  $(TLINK) /v/x @&&|
+c:\tc\lib\c0l.obj+
+protect.obj+
+blp_aclk.obj+
+adlib.obj+
+dacdma.obj+
+detblast.obj+
+sbdac.obj+
+dma_code.obj+
+sbp_chk.obj+
+farmset.obj+
+xmsca.obj+
+xms.obj+
+blit.obj+
+muspl.obj+
+bmsmaky.obj+
+bmdecor.obj+
+bmicone.obj+
+te_col.obj+
+bmmove.obj+
+bmpal.obj+
+bmtable.obj+
+te_tim.obj+
+bmtext.obj+
+pubscree.obj+
+bm_x.obj
+blupiman,
+c:\tc\lib\graphics.lib+
+c:\tc\lib\cl.lib
+|
+
+
+#		*Individual File Dependencies*
+protect.obj: protect.c 
+
+blp_aclk.obj: blp_aclk.c 
+
+adlib.obj: adlib.c 
+
+dacdma.obj: dacdma.c 
+
+detblast.obj: detblast.c 
+
+sbdac.obj: sbdac.c 
+
+dma_code.obj: dma_code.asm 
+	$(TASM) dma_code.asm
+
+sbp_chk.obj: sbp_chk.asm 
+	$(TASM) sbp_chk.asm
+
+farmset.obj: farmset.asm 
+	$(TASM) farmset.asm
+
+xmsca.obj: xmsca.asm 
+	$(TASM) /m3 /MX /ZI /O  xmsca.asm
+
+xms.obj: xms.c 
+
+blit.obj: blit.asm 
+	$(TASM) /m3 /MX /ZI /O  blit.asm
+
+muspl.obj: muspl.c 
+
+bmsmaky.obj: bmsmaky.c 
+
+bmdecor.obj: bmdecor.c 
+
+bmicone.obj: bmicone.c 
+
+te_col.obj: te_col.asm 
+	$(TASM) /M3 /MX /ZI /O  te_col.asm
+
+bmmove.obj: bmmove.c 
+
+bmpal.obj: bmpal.c 
+
+bmtable.obj: bmtable.c
+
+pubscree.obj: pubscree.c ..\blang\_lang.h
+
+te_tim.obj: te_tim.asm 
+	$(TASM) /M3 /MX /ZI /O  te_tim.asm
+
+bmtext.obj: bmtext.c 
+
+bm_x.obj: bm_x.c 
+
+#		*Compiler Configuration File*
+blupiman.cfg: makefile.
+  copy &&|
+-ml
+-2
+-f-
+-ff-
+-v
+-G
+-O
+-Z
+-k-
+-V
+-vi-
+-wbbf
+-wpin
+-wamb
+-wamp
+-w-par
+-wpro
+-wdef
+-wnod
+-wuse
+-IE:\TC\INCLUDE
+-LE:\TC\LIB
+| blupiman.cfg
+
+

@@ -1,0 +1,3 @@
+  pline ("Vous venez de jouer avec une version de d‚monstration.") ;
+  pline ("Si la version complŠte de ce jeu vous interesse, veuillez") ;
+  pline ("svp. acheter le CD-ROM original BLUPI A LA MAISON.") ;

@@ -1,0 +1,3 @@
+  pline ("Dies ist eine Demoversion. Wenn Sie an einer kompletten Version") ;
+  pline ("dieses Spiels fr Kinder interessiert sind, kaufen Sie bitte die") ;
+  pline ("Orginal BLUPI CD-ROM.") ;

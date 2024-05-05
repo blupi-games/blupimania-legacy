@@ -1,0 +1,3 @@
+  pline ("You just played with a limited demo version of BLUPI'S TRAVELS.") ;
+  pline ("If you'd like a complete version of this educational game, please") ;
+  pline ("send your order to EPSITEC.") ;

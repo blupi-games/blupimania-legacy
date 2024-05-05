@@ -1,0 +1,3 @@
+  pline ("\001BLUPI AT HOME\001 for children aged 3 to 8. Make Blupi live all") ;
+  pline ("sorts of adventures in his house by pressing keys or clicking") ;
+  pline ("objects and have fun playing games with him.") ;

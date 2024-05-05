@@ -1,0 +1,1 @@
+   pline ("\001BLUPI ZU HAUSE\001: ein Spiel fr Kinder von 3 bis 8") ;

@@ -1,0 +1,2 @@
+call ..\blang\nodemo.bat
+

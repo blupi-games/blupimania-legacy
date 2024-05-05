@@ -1,0 +1,4 @@
+  pline ("\001BLUPIMANIA\001, 12-99 Jahre. Ein aufregendes und unerbittliches Logik-") ;
+  pline ("spiel. Lenken Sie BLUPI durch total verckte Welten und helfen Sie") ;
+  pline ("ihm, seinen Luftballon wieder zu finden. Konstruieren Sie Ihre") ;
+  pline ("eigenen Welten, und lassen Sie sie von Ihren Freunden aufl”sen.") ;

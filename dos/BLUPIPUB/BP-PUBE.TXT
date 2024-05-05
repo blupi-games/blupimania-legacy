@@ -1,0 +1,2 @@
+  pline ("\001BLUPI'S TRAVELS\001 for children aged 6 and up. You can help Blupi") ;
+  pline ("find the parts he needs to build his machine.") ;

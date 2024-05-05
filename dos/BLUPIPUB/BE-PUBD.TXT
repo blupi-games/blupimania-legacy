@@ -1,0 +1,2 @@
+  pline ("\001BLUPI IM SCHLOSS\001 fr Kinder von 9 bis 99. Blupi durchstreift ein") ;
+  pline ("Schloss auf der Suche nach 60 Schatztruhen.") ;

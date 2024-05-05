@@ -1,0 +1,3 @@
+  pline ("Dies ist eine Demoversion. Wenn Sie an einer kompletten Version") ;
+  pline ("dieses Spiels fr Kinder oder an anderen BLUPI Programmen") ;
+  pline ("interessiert sind, wenden Sie sich bitte an untenstehende Adresse.") ;

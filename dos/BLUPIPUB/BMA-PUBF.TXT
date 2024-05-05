@@ -1,0 +1,4 @@
+  pline ("\001BLUPIMANIA\001, 12-99 ans. Un jeu de logique palpitant et implacable,") ;
+  pline ("Guidez BLUPI … travers des mondes totalement d‚lirants et aidez le …") ;
+  pline ("retrouver son ballon. Cr‚ez vos propres mondes et faites les r‚soudre") ;
+  pline ("par vos amis. R‚flexion et action sont au rendez-vous.") ;

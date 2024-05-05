@@ -1,0 +1,3 @@
+  pline ("Vous venez de jouer avec une version de d‚monstration limit‚e.") ;
+  pline ("Si la version complŠte de ce jeu ‚ducatif vous interesse, vous") ;
+  pline ("pouvez le commander … l'adresse ci-dessous.") ;

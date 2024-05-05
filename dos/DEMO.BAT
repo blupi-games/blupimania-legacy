@@ -1,0 +1,1 @@
+call ..\blang\demo.bat

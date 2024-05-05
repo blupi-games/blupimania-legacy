@@ -1,0 +1,3 @@
+  pline ("\001BLUPI S'AMUSE\001 pour enfants de 6 … 12 ans. Un jeu ‚ducatif") ;
+  pline ("permettant d'exercer le calcul, la lecture, la m‚moire et le") ;
+  pline ("raisonnement grƒce … huit activit‚s diff‚rentes.") ;

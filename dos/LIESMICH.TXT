@@ -1,0 +1,195 @@
+
+                    B L U P I M A N I A
+                    -------------------
+
+Inhalt
+------
+  Benutzung unter Windows 3.x (TM)
+  Benutzung unter Windows 95 (TM)
+  Speicherprobleme
+  Probleme mit der Soundkarte
+  Sonstige Probleme
+
+
+Benutzung unter Windows 3.x (TM)
+--------------------------------
+Wenn Sie BLUPIMANIA von Windows aus starten wollen, dann gehen Sie
+folgendermassen vor:
+
+ - Im Programm-Manager îffnen Sie die Gruppe in  der Sie das BLUPIMANIA
+   Programmsymbol erstellen wollen. Um eine neue Gruppe zu erstellen
+   benutzen Sie den Befehl Datei - Neu.
+ - Benutzen Sie nun den Befehl Datei - Neu, klicken Sie auf "Neues
+   Programmobjekt" und dann auf OK.
+ - FÅllen Sie den darauf folgenden Dialog folgendermassen aus:
+   Beschreibung:  Blupimania
+   Befehlszeile:  C:\BLUPIMAN\BLUPIMAN.PIF
+   Lassen Sie die restlichen Felder leer.
+ - Klicken Sie auf die SchaltflÑche "Anderes Symbol", und ignorieren Sie
+   die darauf folgende Fehlermeldung.
+ - In dem darauf folgenden Dialog geben Sie "C:\BLUPIMAN\BLUPIMAN.ICO"
+   oder den entsprechenden Pfad wenn Sie BLUPIMANIA in einem anderen
+   Verzeichnis installiert haben.
+ - Klicken Sie erneut auf "OK"
+
+Achtung:
+Wenn Sie BLUPIMANIA in einem anderen Verzeichnis als C:\BLUPIMAN
+installiert haben,  zum Beispiel C:\SPIELE\BLUPIMAN, dann mÅssen
+Sie C:\BLUPIMAN durch den entsprechenden Pfad (hier C:\SPIELE\BLUPIMAN)
+ersetzen.
+
+Benutzung unter Windows 95
+--------------------------
+Um BLUPIMANIA unter Windows 95 zu benutzen, erstellen Sie am besten eine
+VerknÅpfung mit BLUPIMAN.EXE.
+ - ôffnen Sie den Ordner in dem Sie BLUPIMANIA installiert haben.
+ - Klicken Sie mit dem rechten Mausknopf auf BLUPIMAN.EXE oder BLUPIMAN
+   (Symbol das ein leeres Fenster mit blauer Kopfzeile zeigt) und wÑhlen
+   Sie den Befehl VerknÅpfung erstellen. Klicken Sie nicht auf das
+   BLUPIMAN Symbol mit dem MSDOS Symbol !
+ - Klicken Sie nun mit dem rechten Mausknopf auf das neu erstellte Symbol
+   "VerknÅpfung mit Blupimania" und wÑhlen Sie den Befehl "Eigenschaften".
+ - Im darauf folgenden Dialog wÑhlen Sie die Registrierkarte Programm und
+   klicken Sie auf die SchaltflÑche Anderes Symbol.
+ - Im darauf folgenden Dialog geben Sie "C:\BLUPIMAN\BLUPIMAN.ICO" ein
+   oder suchen Sie die Datei BLUPIMAN.ICO. Sobald das BLUPIMAN Symbol
+   erscheint, klicken Sie auf OK.
+ - Sie verfÅgen nun Åber eine VerknÅpfung mit BLUPIMANIA mit dem
+   lustigen BLUPISymbol. Sie kînnen nun diese VerknÅpfung mit der Maus
+   an einen beliebigen Ort verschieben.
+
+Speicherprobleme
+----------------
+BLUPIMANIA erfordert ungefÑhr 480000 Bytes freien
+konventionellen Speicher.
+
+Wenn BLUPIMANIA nicht funktioniert sondern folgenden Fehlermeldung
+anzeigt:
+
+  Sie haben nicht genÅgend freien konventionellen Speicher, um dieses
+  Programm zu starten.
+  ...
+
+dann heisst das, dass Ihr Computer nicht Åber genÅgend konventionellen
+Speicherraum verfÅgt. In diesem Fall mÅssen Sie entweder einige TSR
+Programme oder Treiber entfernen und/oder einen Expanded Memory Manager
+(EMM) benutzen (zb. EMM386, oder QEMM386 von Quarterdeck). Mit MS-DOS 6
+kînnen Sie ebenfalls den DOS Befehl MEMMAKER benntzen. Ziehen auf jeden
+Fall die entsprechenden HandbÅcher zu Rate (zb. MS-DOS Handbuch).
+
+Der freie konventionelle Speicherraum kann mit dem DOS Befehl MEM
+ermittelt werden. Dieser Befehl zeigt unter anderem
+   
+   478776 largest executable program size
+
+an. Diese Zahl muss mindestens 480000 betragen.
+
+
+Wenn BLUPI folgenden Fehlermeldung anzeigt:
+
+  Nicht genÅgend XMS Speicher vorhanden.
+
+dann heisst das, dass Ihr Computer nicht Åber genÅgend Speicher verfÅgt.
+Diese Fehlermeldung erscheint normalerweise nur auf Computern mit 4 Mb
+Speicher. Sie kînnen einigen Speicher zurÅckgewinnen, wenn Sie den
+Speicherplatz fÅr SMARTDRV verringern. Ziehen Sie dazu Ihr DOS Handbuch
+zu Rate.
+
+
+Probleme mit der Soundkarte
+---------------------------
+
+Frage:
+Ich hîre keinerlei Musik oder GerÑusche
+
+Antwort:
+Ihr Spiel ist wahrscheinlich nicht richtig eingestellt. Starten Sie das
+Programm SETUP im Verzeichnis in dem Sie BLUPIMANIA installiert haben und
+nehmen Sie die Einstellungen fÅr Ihre Soundkarte vor. Wenn Sie mehr Åber
+die Einstellung von Soundkarten erfahren wollen, sehen Sie bitte in der
+Betriebsanleitung Ihrer Soundkarte nach.
+ACHTUNG: wenn Sie Blupi mit einer falschen Einstellung der Soundkarte
+ausgefÅhrt haben, kann es notwendig sein Ihren Computer neu zu starten.
+
+Frage:
+Ich hîre nur Musik aber keine GerÑuscheffekte.
+
+Antwort:
+Entweder haben Sie nur eine alte Adlib Karte, dann ist es normal wenn
+keine GerÑuscheffekte vorhanden sind, oder aber Ihre Soundkarte ist
+nicht richtig eingestellt. Wenn letzteres zutrifft, beziehen Sie sich
+auf die vorhergehende Frage. Sehen Sie gegebenenfalls auch in den
+Einstellungen von BLUPIMANIA nach ob die LautstÑrke fÅr die
+GerÑuscheffekte nicht auf Null steht. Um in die Einstellungen zu
+gelangen, klicken Sie auf die blaue Maschine rechts im Hauptbildschirm
+von BLUPIMANIA.
+
+Frage:
+Die Einstellungen fÅr die Soundkarte sind korrekt, aber ich hîre keine
+Soundeffekte
+
+Antwort:
+Mit manchen Installationen funktionieren die GerÑuscheffekte nicht
+richtig, wenn Blupi von Windows (TM) aus gestartet wurde. In diesem
+Falle fÅhren Sie Blupi von der DOS Kommandozeile aus. Verlassen Sie
+dazu Windows, es genÅgt nicht Blupi von einer DOS Box aus zu starten.
+
+Frage:
+BLUPIMANIA stÅrzt ab und kehrt zu Windows zurÅck. 
+
+Antwort:
+Beziehen Sie sich auf die vorhergehende Frage.
+
+Frage:
+Ich habe alle vorhergehenden RatschlÑge befolgt, aber ich hîre immer noch
+nichts.
+
+Antwort:
+Vergewissern Sie sich, dass die Lautsprecher richtig angeschlossen sind,
+und dass die LautstÑrke nicht auf Null ist.
+
+
+Sonstige Probleme
+-----------------
+Wenn BLUPI nicht funktioniert sondern folgenden Text anzeigt:
+
+ Fatal error: kein DOS Maustreiber installiert
+
+dann heisst das, das der DOS Maustreiber ist wahrscheinlich nicht geladen
+ist. Dieser Maustreiber wird normalerweise beim Booten Ihres Computers
+geladen, und die entsprechenden Befehle befinden sich in einer der
+beiden Dateien CONFIG.SYS oder AUTOEXEC.BAT. Installieren Sie den
+Maustreiber wie es im Benutzerhandbuch Ihrer Maus erlÑutert ist. Der Name
+dieses Maustreibers ist normalerweise MOUSE.COM (fÅr AUTOEXEC.BAT) oder
+MOUSE.SYS (fÅr CONFIG.SYS). Andere gÑngige Namen sind AMOUSE, GMOUSE,
+IMOUSE, HPMOUSE usw. Die Installation eines solchen Maustreibers ist
+selbst dann notwendig, wenn Ihr Computer Åber Windows (TM) verfÅgt.
+Wenn Sie Åber keinen solchen Maustreiber verfÅgen, fragen Sie bei Ihrem
+HÑndler nach dem zu ihrer Maus passenden Maustreiber nach.
+
+
+Wenn wÑhrend des Spiels folgende Fehlermeldung angezeigt wird:
+
+ Fatal error: BMX002.COL: No such file or directory
+
+dann ist eine der Hilfsdateien (hier BMX002.COL) gelîscht worden.
+Installieren Sie in diesem Fall BLUPIMANIA von neuem.
+ 
+
+Wenn Sie Ihr Problem nicht lîsen kînnen, wenden Sie sich bitte an:
+
+           EPSITEC SA
+           Ch. de la Mouette
+           CH-1032 Belmont
+           tel+fax ++41 21 / 728 44 83
+
+           Email: epsitec@epsitec.ch
+           Web: http://www.epsitec.ch
+
+
+Diese Software ist urheberrechtlich geschÅtzt. Es ist illegal, Kopien
+ieser Software zu reproduzieren oder zu verbreiten. Kopieren dieser
+Software fÅr Verkauf, Verleih, als Geschenk oder Ñhnliches ist verboten.
+PERSONEN DIE DAS VORHERGEHENDE VERBOT NICHT BEACHTEN MACHEN SICH STRAFBAR.
+
+Copyright (C) 1994, 1995 Epsitec SA               Alle Rechte vorbehalten

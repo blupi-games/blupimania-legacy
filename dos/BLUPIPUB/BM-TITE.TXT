@@ -1,0 +1,1 @@
+   pline ("\001BLUPI AT HOME\001: a game for kids from 3 to 8 by EPSITEC") ;

@@ -1,0 +1,4 @@
+  pline ("\001BLUPI SE PROMENE\001 pour enfants de 4 Ö 12 ans. Il faut aider") ;
+  pline ("Blupi Ö trouver des piäces pour sa machine.") ;
+
+

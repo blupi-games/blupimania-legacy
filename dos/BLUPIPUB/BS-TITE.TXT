@@ -1,0 +1,1 @@
+  pline ("\001FUN WITH BLUPI\001: a game for kids aged 6 to 12 by EPSITEC") ;

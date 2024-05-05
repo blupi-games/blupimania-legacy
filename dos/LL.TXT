@@ -1,0 +1,165 @@
+
+BLUPIMANIA
+
+Table des matiäres
+   
+Prononciation du mot "Blupi"
+Utilisation depuis Windows(TM)
+Utilisation depuis Windows 95(TM)
+Gestion de la mÇmoire
+Blupi et la souris
+Musique et sons
+Protection contre les copies pirates
+Autres problämes
+
+Prononciation du mot "Blupi"
+
+Pour bien jouer avec Blupi, il faut commencer par savoir dire son nom. "Blupi" se prononce comme áa s'Çcrit, B-L-U-P-I : c-Ö-d. "BlÅpi" et non pas "Blapi", "Bloupi", "Blopi" ou "Bloppi" etc.
+
+Utilisation depuis Windows (TM)
+
+Pour lancer BLUPIMANIA depuis Windows(TM), il suffit de crÇer un accäs au programme dans un des groupes du Gestionnaire de programmes. Le rÇpertoire dans lequel vous avez installÇ BLUPIMANIA contient le fichier BLUPIMAN.PIF, qui vous permet de lancer BLUPIMANIA depuis Windows(TM), ainsi que le fichier BLUPIMAN.ICO qui propose une icìne Blupi. 
+
+ProcÇdez de la maniäre suivante:
+- Dans le Gestionnaire de Programmes ouvrez le groupe dans lequel vous  voulez crÇer votre icìne Blupi. Pour crÇer un nouveau groupe, exÇcutez  la commande Fichier - Nouveau
+- ExÇcutez de nouveau la commande Fichier - Nouveau et activez le  bouton "Programme", puis cliquez sur " OK ".
+- Dans le dialogue qui s'ouvre, remplissez les champs de la maniäre
+  suivante:
+   Nom:                   Blupimania
+   Ligne de commande:     C:\BLUPIMAN\BLUPIMAN.PIF
+  Ne remplissez pas les autres champs.
+- Cliquez sur "Changer d'icìne..."
+  Un message d'erreur disant qu'aucune icìne n'est disponible dans le
+  fichier spÇcifiÇ apparaåt. Ignorez ce message et cliquez sur " OK ".
+- Dans le dialogue qui suit entrez: C:\BLUPIMAN\BLUPIMAN.ICO et cliquez
+  deux fois sur " OK ".
+- Vous revenez alors dans le dialogue "PropriÇtÇs de programme" oó vous
+  pouvez cliquer sur " OK ".
+- Maintenant vous disposez d'une icìne pour BLUPIMANIA.
+
+ATTENTION:
+Si vous avez installÇ BLUPIMANIA dans un autre rÇpertoire que C:\BLUPIMAN, par exemple            D:\JEUX\BLUPIS\BLUPIM, vous devez remplacer C:\BLUPIMAN  par  C:\JEUX\BLUPIS\BLUPIM dans ce qui est dit plus haut. 
+
+Utilisation depuis Windows 95 (TM)
+
+Pour lancer BLUPIMANIA depuis Windows(TM), il est aisÇ de crÇer un raccourci sur BLUPIMAN.EXE. Ouvrez le rÇpertoire dans lequel vous avez installÇ BLUPIMANIA (normalement BLUPIMAN sur le disque C). Avec le bouton de droite, cliquez sur l'icìne intitulÇe "Blupiman" ou "Blupiman.exe" representant un rectangle vide avec une barre bleue en haut. Dans le menu qui apparaåt, chosissez "CrÇer un raccourci". Cliquez ensuite avec le bouton de droite sur la nouvelle icìne intitulÇe "Raccourci vers Blupimania" et choisissez "PropriÇtÇs". Dans le dialogue qui s'est ouvert, choisissez l'onglet "Programme", puis cliquez sur le bouton "Changer d'icìne". Dans le dialogue "Changement d'icìne" tapez C:\BLUPIMAN\BLUPIMAN.ICO" ou bien cherchez le fichier BLUPIMAN.ICO avec le bouton "Parcourir". Lorsque l'icìne Blupimania apparaåt, cliquez sur "OK". Vous disposez maintenant d'un raccourci vers BLUPIMANIA avec une jolie icìne. Ce raccourci peut àtre dÇplacÇ n'importe oó.
+
+Gestion de la mÇmoire
+
+Pour fonctionner correctement, BLUPIMANIA a besoin d'environ 480000 octets de mÇmoire conventionnelle.
+
+Si votre logiciel BLUPIMANIA ne dÇmarre pas, tout en affichant le texte:
+
+        Vous n'avez pas assez de mÇmoire conventionelle libre
+        pour exÇcuter ce programme...
+
+vous devez libÇrer de la mÇmoire conventionnelle sur votre PC en enlevant certains programmes rÇsidents et gestionnaires et/ou en utilisant un gestionnaire de mÇmoire haute tel que QEMM386 de Quarterdeck. Avec MSDOS 6 vous pouvez aussi utiliser la commande MEMMAKER. RÇfÇrez vous Ö votre manuel MSDOS.
+
+Pour dÇterminer la quantitÇ de mÇmoire conventionnelle disponible, utilisez la commande MSDOS MEM qui affichera entre autres:
+
+       489120 taille maximale de programme exÇcutable
+
+Ce nombre doit valoir au minimum 480000.
+
+Si votre logiciel BLUPI ne fonctionne pas, tout en affichant le texte
+
+      Pas assez de mÇmoire XMS ...
+
+vous n'avez pas assez de mÇmoire disponible pour lancer BLUPIMANIA. Ce message apparait gÇnÇralement sur les ordinateurs avec seulement 4 Mo de mÇmoire. Vous pouvez gagner de la mÇmoire libre en affectant moins de mÇmoire au programme de cache disk SMARTDRV. ProcÇdez alors comme suit:
+- Çditez votre fichier AUTOEXEC.BAT
+- cherchez la ligne contenant la chaåne "SMARTDRV", "SMARTDRV /X",
+  ou "SMARTDRV 1024" etc.
+- Si un nombre suit "SMARTDRV" diminuez ce nombre en le divisant par  exemple par deux.
+- Si aucun nombre ne suit "SMARTDRV", mettez "200" ou Çventuellement  un nombre encore plus petit apräs "SMARTDRV"
+
+Par exemple:
+     Avant               Apräs
+     SMARTDRV /X 1024    SMARTDRV /X 512
+     SMARTDRV            SMARTDRV 200
+
+Le nombre qui suit  "SMARTDRV" indique la quantitÇ de mÇmoire en Koctets qui doit àtre utilisÇe pour le cache du disque. En diminuant ce nombre vous augmentez la quantitÇ de mÇmoire disponible pour BLUPIMANIA.
+
+En revanche il n'est pas recommandÇ d'enlever SMARTDRV complätement.
+
+Blupi et la souris
+
+BLUPIMANIA est un programme DOS qui a besoin d'un pilote de souris DOS. Lors de l'installation de BLUPIMANIA, un message vous avertit si aucun gestionnaire de souris DOS n'est installÇ. Ce gestionnaire est chargÇ d'habitudeÇ lors du dÇmarrage de votre ordinateur par une commande dans AUTOEXEC.BAT ou dans CONFIG.SYS. Installez le gestionnaire souris selon le manuel d'utilisation de votre souris. Le nom du pilote souris est normalement MOUSE.COM (pour AUTOEXEC.BAT) ou MOUSE.SYS (pour CONFIG.SYS). D'autres noms courants sont AMOUSE, GMOUSE, IMOUSE, HPMOUSE etc. L'installation de ce gestionnaire est nÇcessaire màme si Windows(TM) est installÇ sur votre ordinateur.
+
+Si vous avez un gestionnaire de souris SICOS, il se peut que BLUPIMANIA rÇgisse de temps en temps comme si vous aviez cliquÇ deux fois alors qu'en rÇalitÇ vous n'avez cliquÇ qu'une seule fois. Ceci est dñ Ö une erreur dans le gestionnaire SICOS. Dans ce cas procurez vous un autre gestionnaire de souris ou bien contactez Epsitec SA.
+
+Musique et sons
+
+Si votre ordinateur est ÇquipÇ d'une carte son compatible SoundBlaster, vous pouvez avoir une superbe musique de fond et des effets sonores.
+
+Question :
+Il n'y a ni musique ni effets sonores.
+
+RÇponses :
+- Avez-vous une carte son ?
+- Assurez-vous que les haut-parleurs sont branchÇs correctement et que  le volume n'est pas au minimum.
+- BLUPI n'est probablement pas configurÇ correctement. Lancez le programme  SETUP dans le rÇpertoire dans lequel vous avez installÇ votre jeu et  configurez-le pour votre carte son. Pour plus de dÇtails sur la   configuration des cartes son, veuillez consulter le mode d'emploi de   votre carte son.  ATTENTION: Si vous avez lancÇ BLUPI avec une mauvaise configuration pour  la carte son, il peut àtre nÇcessaire de redÇmarrer votre PC en appuyant sur la touche RESET de votre PC, màme si vous avez configurÇ BLUPI correctement par la suite.
+
+Question :
+J'entends la musique, mais pas les effets sonores
+
+RÇponses :
+- Regardez dans les räglages de BLUPIMANIA si le volume de la musique  n'est pas Ö zÇro.
+- Si vous avez une vieille carte Adlib (n'existe pratiquement plus) ceci  est normal, car la carte Adlib n'est pas capable de produire les effets  sonores de BLUPI. En revanche, si vous avez une carte Soundblaster ou  compatible, BLUPI n'est probablement pas configurÇ correctement.  RÇfÇrez vous Ö la question prÇcÇdente.
+
+Question :
+J'entends les effets sonores, mais pas la musique.
+
+RÇponses :
+- Regardez dans les räglages de BLUPIMANIA si le volume de la musique  n'est pas Ö zÇro.
+- Certaines cartes son ont besoin d'un ou plusieurs programmes auxiliaires  qui sont gÇnÇralement lancÇs depuis CONFIG.SYS et/ou AUTOEXEC.BAT.  Consultez la documentation de votre carte son pour plus de dÇtails
+
+Question :
+J'ai configurÇ BLUPI correctement pour ma carte son, mais je n'entends
+toujours pas d'effets sonores
+
+RÇponse :
+- Avec certaines configurations les effets sonores ne fonctionnent pas  si vous avez lancÇ BLUPI depuis Windows(TM). Dans ce cas quittez complätement Windows(TM), et lancez BLUPI depuis DOS  Attention : il ne suffit pas de lancer BLUPI depuis une fenàtre DOS de Windows(TM). 
+Pour lancer BLUPIMANIA :
+- Changez de rÇpertoire en tapant CD C:\BLUPIMAN (ou le nom choisi  lors de l'installation du programme)
+- Lancez BLUPMANIA en tapant BLUPIMAN.
+
+Question :
+BLUPI retourne brusquement dans Windows(TM) affichant dans une boåte de 
+dialogue qu'une erreur grave s'est produite.
+
+RÇponse :
+RÇfÇrez vous Ö la question prÇcÇdente.
+
+Autres problämes
+
+Question :
+Lorsque je lance le programme SETUP pour configurer BLUPI c'est le programme SETUP de Windows(TM) ou un quelconque autre programme SETUP qui est lancÇ.
+
+RÇponses :
+- Vous n'àtes pas dans le rÇpertoire dans lequel vous avez installÇ   BLUPIMANIA.  Pour y aller, tapez la commande CD BLUPIMAN (si vous avez installÇ  BLUPI dans le rÇpertoire BLUPIMAN).
+- Avez-vous installÇ BLUPIMANIA sur votre disque dur ?
+
+Question :
+Pendant le jeu apparaåt un message d'erreur qui ressemble Ö :
+  "Fatal error: BLUPIX20.COL: No such file or directory"
+
+RÇponse :
+Un des fichiers auxiliaires (ici BLUPIX20.COL) a ÇtÇ effacÇ.  Dans ce cas installez de nouveau votre programme BLUPIMANIA.
+
+Protection contre les copies pirates
+
+Ce logiciel est protÇgÇ contre les copies pirates. Si vous copiez la disquette originale sur une autre disquette, vous pouvez installer seulement des versions de dÇmonstration du jeu avec cette disquette. Si votre disquette originale est devenue illisible, veuillez la retourner chez Epsitec, et nous vous l'Çchangerons gratuitement.
+
+
+Si vous n'arrivez pas Ö rÇsoudre votre probläme, veuillez s.v.p. prendre contact avec votre revendeur ou avec
+
+           EPSITEC SA
+           Ch. de la Mouette
+           CH-1092 Belmont
+           tÇl+fax 021 / 728 44 83
+
+
+Ce logiciel est protÇgÇ par la loi du copyright et par des conventions internationales. Toute reproduction ou distribution partielle ou totale du logiciel, par quelque moyen que ce soit, est strictement interdite. TOUTE PERSONNE NE RESPECTANT PAS CES DISPOSITIONS SE RENDRA COUPABLE DU DELIT DE CONTREFACON ET SERA PASSIBLE DES PEINES PENALES PREVUES PAR LA LOI.
+
+
+Copyright (C) 1994, 1995 Epsitec SA                                       Tous droits rÇservÇs

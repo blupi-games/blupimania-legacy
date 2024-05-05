@@ -1,0 +1,3 @@
+  pline ("You just played with a demo version of BLUPI AT HOME.") ;
+  pline ("If you'd like a complete version of this educational game, please") ;
+  pline ("buy the original BLUPI AT HOME CD-ROM.") ;

@@ -1,0 +1,3 @@
+  pline ("\001BLUPI A LA MAISON\001 pour enfants de 3 … 8 ans. Un jeu ‚ducatif") ;
+  pline ("dans lequel Blupi vit toutes sortes d'aventures … l'int‚rieur") ;
+  pline ("d'une maison selon les touches press‚es.") ;

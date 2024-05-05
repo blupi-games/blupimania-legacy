@@ -1,0 +1,1 @@
+  pline ("\001BLUPI GEHT SPAZIEREN\001: ein Spiel fÅr Kinder von 4 bis 12") ;

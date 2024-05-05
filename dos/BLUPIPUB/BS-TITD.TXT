@@ -1,0 +1,1 @@
+  pline ("\001SPASS MIT BLUPI\001: ein Spiel fÅr Kinder von 6 bis 12") ;

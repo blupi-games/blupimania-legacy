@@ -1,0 +1,2 @@
+  pline ("\001BLUPI EXPLORATEUR\001 pour enfants de 9 … 99 ans. Dans ce jeu") ;
+  pline ("Blupi doit explorer un chƒteau, … la recherche de tr‚sors.") ;

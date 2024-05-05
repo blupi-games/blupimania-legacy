@@ -1,0 +1,12 @@
+
+#ifdef DISTR_D
+  pline ("Vertrieb in Deutschland:  MD Consulting fÅr EDV GmbH") ;
+  pline ("                          Hessenstr. 3") ;
+  pline ("                          65719 Hofheim-Wallau") ;
+  pline ("                          Tel: 06122 60 82,  Fax: 06122 76 601") ;
+#endif
+
+#ifdef DISTR_CH
+  pline ("EPSITEC SA, Ch. de la Mouette, CH-1092 Belmont") ; 
+  pline ("Tel/fax: ++41 21 728 44 83") ;
+#endif

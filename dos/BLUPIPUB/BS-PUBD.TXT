@@ -1,0 +1,3 @@
+  pline ("\001SPASS MIT BLUPI\001 fr Kinder von 6 bis 12. Ein Lernspiel das acht") ;
+  pline ("verschiedene Aktivit„ten beinhaltet: Kopfrechnen, Puzzles,") ;
+  pline ("Irrg„rten, Worteraten usw.") ;

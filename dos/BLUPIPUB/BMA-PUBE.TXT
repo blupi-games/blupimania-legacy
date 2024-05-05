@@ -1,0 +1,4 @@
+  pline ("\001BLUPIMANIA\001, 12-99 years. Blupi is lost in a world full of") ;
+  pline ("traps and hazards. Help him to find his balloon, so he can fly on") ;
+  pline ("to the next riddle. Create your own riddles and challenge other") ;
+  pline ("blupimaniacs to find the solution.") ;

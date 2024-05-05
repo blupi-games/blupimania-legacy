@@ -1,0 +1,77 @@
+Bestellschein für Epsitec Software
+
+Name ________________________________________________________________
+
+Adresse _____________________________________________________________
+
+_____________________________________________________________________
+
+PLZ ________ Ortschaft ______________________________________________
+
+Land _________________________________________
+
+Telefon ______________________________________
+
+FAX ___________________________________________________
+
+E-mail Adresse _________________ @ __________________________________
+
+
+Zahlungsweise :
+           [ ] Scheck (bitte beilegen)
+           [ ] Eurocard / Mastercard
+           [ ] Einzahlung Postscheckkonto CCP 10-19855-9
+               (Empfangschein bitte beilegen)
+           [ ] Bargeld
+
+Ich möchte folgende Software bestellen :
+
+[ ] BLUPI ZU HAUSE    Dreisprachig                          fr  39.00
+[ ] BLUPI GEHT SPAZIEREN
+                     [ ] Deutsch  [ ] Englisch  [ ] Franz.  fr  39.00
+[ ] SPASS MIT BLUPI  [ ] Deutsch  [ ] Englisch  [ ] Franz.  fr  39.00
+[ ] BLUPI IM SCHLOSS [ ] Deutsch  [ ] Englisch  [ ] Franz.  fr  39.00
+[ ] BLUPIMANIA       [ ] Deutsch  [ ] Englisch  [ ] Franz.  fr  39.00
+
+[ ] Krösus-Finanzbuchghaltung PRO                           fr 480.00
+[ ] Krösus-Finanzbuchghaltung LARGO                         fr 960.00
+[ ] Krösus-Lohnbuchhaltung PRO                              fr 480.00
+[ ] Krösus-Lohnbuchhaltung LARGO                            fr 680.00
+[ ] Krösus-Faktura PRO                                      fr 480.00
+[ ] Krösus-Faktura LARGO                                    fr 960.00
+
+Versandkosten                                               fr   5.00
+
+Gesamtbetrag                                               __________
+
+
+Unterschrift ________________________________________________________
+
+
+Bei Zahlung mit Kreditkarte :
+
+Wir können nur Eurocard und Mastercard akzeptieren (keine
+American Express, Visa card etc. bitte)
+
+Kreditkartennummer __________________________________________________
+
+Verfallsdatum _______________________________________________________
+
+Name auf der Karte __________________________________________________
+
+Unterschrift des Kartenbesitzers ____________________________________
+
+
+
+Senden oder faxen Sie diesen Bestellschein an :
+
+   EPSITEC SA
+   Mouette
+   CH-1092 Belmont
+   Schweiz
+
+   Fax Schweiz:    (024) 222 057
+   Fax Ausland:  ++41 24 222 057
+
+Bei Zahlung über Postsckeckkonto bitte Empfangschein mitschicken
+oder mitfaxen.

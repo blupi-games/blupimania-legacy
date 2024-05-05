@@ -1,0 +1,3 @@
+  pline ("\001BLUPI EXPLORER\001 for children aged 9 to 99. Help Blupi explore a") ;
+  pline ("22-room castle, seeking for 60 treasures. Find useful objects to") ;
+  pline ("help him unlock doors, leap over walls, let down draw-bridges, etc.") ;
